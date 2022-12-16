@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -12,7 +11,7 @@ void print_numbers(void)
 
 	for (q = 0; q < 10; q++)
 	{
-		_putchar(q + '0');
+		_putchar(q);
 	}
 	_putchar('\n');
 }
