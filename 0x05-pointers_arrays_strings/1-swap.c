@@ -8,10 +8,10 @@
  */
 void swap_int(int *a, int *b)
 {
-	int *temp; /* create pointer to hold value */
-	*temp = *a; /* assign value of *a to *temp */
+	int t; /* create integer variable */
+	t = *a; /* assign value of *a to t */
 	*a = *b; /* assign value of *b to *a */
-	*b = *temp; /* assign value of *temp to *b */
+	*b = t; /* assign value of t to *b */
 
 	return (void);
 }
