@@ -7,9 +7,7 @@
  */
 int _strlen(char *s)
 {
-	int len; /* create variable len */
+	printf("%d\n", strlen(s));
 
-	len = strlen(*s); /* assign length of string s to len */
-
-	return (len);
+	return (0);
 }
