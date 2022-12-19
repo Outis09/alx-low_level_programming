@@ -12,6 +12,4 @@ void swap_int(int *a, int *b)
 	t = *a; /* assign value of *a to t */
 	*a = *b; /* assign value of *b to *a */
 	*b = t; /* assign value of t to *b */
-
-	return (void);
 }
