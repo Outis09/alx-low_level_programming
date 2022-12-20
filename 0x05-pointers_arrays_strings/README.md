@@ -1,6 +1,6 @@
 This directory is used to practice the concepts of pointers, arrays and strings in C programming. This is part of the AlX Software Engineering program.
 
-##Programs
+## Programs
 
 * **0-reset_to_98.c** - takes a pointer to an `int` as a parameter and updates the value it points to to 98
 * **1-swap.c** - swaps the value of two integers
