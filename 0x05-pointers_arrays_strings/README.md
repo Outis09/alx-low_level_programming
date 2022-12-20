@@ -9,4 +9,6 @@ This directory is used to practice the concepts of pointers, arrays and strings 
 * **4-print_rev.c** - prints a string in reverse followed by a new line
 * **5-rev_string.c** - reverse a string
 * **6-puts2.c** - prints evry other character of a string starting with the first character
+* **7-puts_half.c** - prints half of a string followed by a new line
+* **8-print_array.c** - prints `n` elements of an array followed by a new line
 * **9-strcpy.c** - copies the string pointed to by `src`, including the terminating null byte (`\0`), to the buffe pointed to be `dest` 
