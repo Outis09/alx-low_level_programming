@@ -3,14 +3,14 @@
 /**
  * *string_toupper - convert all lowercase in a string to uppercase
  *
- * @*: pointer to string
+ * @c: pointer to string
  * Return: all characters of the string in uppercase
  */
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
 	char s;
 
-	s = toupper(*);
+	s = strupr(c);
 
 	return (s);
 }
