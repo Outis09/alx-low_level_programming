@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,14 +9,9 @@
  */
 int _abs(int r)
 {
-	if (r >= 0)
-	{
-		_putchar(r);
-	}
-	else if (r < 0)
-	{
-		_putchar(-r);
-	}
+	int n;
 
-	return (0);
+	n = abs(r);
+
+	return (n);
 }
