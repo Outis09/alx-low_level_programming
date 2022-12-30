@@ -4,10 +4,10 @@
 /**
  * _abs - prints absolute value of an integer
  * @r: integer
- * Return: 0
+ * Return: absolute value of integer
  */
 int _abs(int r)
 {
 	abs(r);
-	return (0);
+	return (r);
 }
