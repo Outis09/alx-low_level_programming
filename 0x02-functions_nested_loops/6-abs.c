@@ -3,13 +3,11 @@
 
 /**
  * _abs - prints absolute value of an integer
- * @int: integer
+ * @r: integer
  * Return: 0
  */
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-
 	abs(r);
 	return (0);
 }
