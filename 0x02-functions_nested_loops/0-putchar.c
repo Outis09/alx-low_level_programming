@@ -8,11 +8,9 @@
 int main(void)
 {
 	char var[] = "_putchar";
-	int i, l;
+	int i;
 
-	l = strlen(var);
-
-	for (i = 0; i <= l; i++)
+	for (i = 0; var[i] != '\0'; i++)
 	{
 		_putchar(var[i]);
 	}
