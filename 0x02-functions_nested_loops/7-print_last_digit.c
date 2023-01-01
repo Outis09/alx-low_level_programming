@@ -12,15 +12,14 @@ int print_last_digit(int n)
 
 	if (n < 0)
 	{
-		r = -n % 10;
+		r = -1 * (n % 10);
 		printf("%d", r);
 		return (r);
 	}
-	else 
+	else
 	{
 		r = n % 10;
-		printf("%d",r);
+		printf("%d", r);
 		return (r);
 	}
-
 }
