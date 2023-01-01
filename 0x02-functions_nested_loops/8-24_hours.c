@@ -23,14 +23,13 @@ void jack_bauer(void)
 					printf("0");
 					printf("%d", r);
 				}
-				else 
+				else
 				{
 					printf("%d", r);
 				}
 				printf("\n");
-				
 			}
-			else if (i >= 10) 
+			else if (i >= 10)
 			{
 				printf("%d", i);
 				printf(":");
@@ -39,7 +38,7 @@ void jack_bauer(void)
 					printf("0");
 					printf("%d", r);
 				}
-				else 
+				else
 				{
 					printf("%d", r);
 				}
