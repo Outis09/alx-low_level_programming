@@ -8,9 +8,11 @@
  * Return: pointer to the first occurrence of the character,
  * Null if the string is not found
  */
-char *strchar(char *s, char c)
+char *_strchr(char *s, char c)
 {
-	strchr(s, c);
+	char *k;
 
-	return (s);
+	k = strchr(s, c);
+
+	return (k);
 }
