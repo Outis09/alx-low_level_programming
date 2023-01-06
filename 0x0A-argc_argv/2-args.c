@@ -6,7 +6,7 @@
  * @argv: pointer to string arrays passed as arguments
  * Return: 0
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int i;
 
