@@ -28,7 +28,14 @@ char *create_array(unsigned int size, char c)
 
 	for (i = 0; i < size; i++)
 	{
-		p[i] = c;
+		if (i == size - 1)
+		{
+			p[i] = '\0';
+		}
+		else
+		{
+			p[i] = c;
+		}
 	}
 
 	return (p);
